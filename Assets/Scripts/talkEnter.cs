@@ -13,20 +13,18 @@ public class talkEnter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        talkPanel.SetActive(true);
 
         if (Input.GetMouseButtonDown(0))
         {
-            
-            if(clickCount == 0)
+            if (clickCount == 0)
             {
-                
+                talk.text = "엄마아빠가 선물해주신 드림 캐처가 아이를 지켜줄 \n거예요.";
                 clickCount++;
             }
             
              else if (clickCount == 1)
             {
-                talk.text = "침대에 다가가 마우스를 클릭하면 잠에 \n들 수 있어요.";
+                talk.text = "침대에 다가가 마우스를 클릭하면 잠에 들 수 있어\n요.";
                 clickCount++;
             }
 

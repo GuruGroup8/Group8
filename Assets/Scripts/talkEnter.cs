@@ -9,10 +9,20 @@ public class talkEnter : MonoBehaviour
     public Text talk;
     int clickCount = 0;
     public int lastClick;
+    PlayerMove player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player").GetComponent<PlayerMove>();
+    }
 
     // Update is called once per frame
     void Update()
     {
+        if (player.currentWalkCount > 0)
+        {
+            talkPanel.SetActive(true);
+        }
 
         if (Input.GetMouseButtonDown(0))
         {

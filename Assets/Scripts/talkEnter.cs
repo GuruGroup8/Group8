@@ -9,20 +9,11 @@ public class talkEnter : MonoBehaviour
     public Text talk;
     int clickCount = 0;
     public int lastClick;
-    PlayerMove player;
-
-    void Start()
-    {
-        player = GameObject.Find("Player").GetComponent<PlayerMove>();
-    }
-
+    
+   
     // Update is called once per frame
     void Update()
     {
-        if (player.currentWalkCount > 0)
-        {
-            talkPanel.SetActive(true);
-        }
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -31,8 +22,8 @@ public class talkEnter : MonoBehaviour
                 talk.text = "엄마아빠가 선물해주신 드림 캐처가 아이를 지켜줄 \n거예요.";
                 clickCount++;
             }
-            
-             else if (clickCount == 1)
+
+            else if (clickCount == 1)
             {
                 talk.text = "침대에 다가가 마우스를 클릭하면 잠에 들 수 있어\n요.";
                 clickCount++;

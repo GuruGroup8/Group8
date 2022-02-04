@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 3b6701fc60ce17b4fa34d6d03d2667d1
+guid: 37b3656f81552064a8fe092cec8821b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3580109865048897416
-    second: frontJump_0
+      213: -906318807767046647
+    second: frontJumpSprite_0
   - first:
-      213: 1963551219780988697
-    second: frontJump_1
+      213: 4302680478085263489
+    second: frontJumpSprite_1
   - first:
-      213: -6231754703228317106
-    second: frontJump_2
+      213: 3104597258818056993
+    second: frontJumpSprite_2
   - first:
-      213: 5297444952297623223
-    second: frontJump_3
+      213: -5074656351374457549
+    second: frontJumpSprite_3
   - first:
-      213: 7525563137613602756
-    second: frontJump_4
+      213: -3464934434279294620
+    second: frontJumpSprite_4
   - first:
-      213: 4329820660166428399
-    second: frontJump_5
+      213: -2088125209643113654
+    second: frontJumpSprite_5
   - first:
-      213: -6432875057073189695
-    second: frontJump_6
+      213: 1738310349625742679
+    second: frontJumpSprite_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -53,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -124,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frontJump_0
+      name: frontJumpSprite_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 768
-        width: 450
-        height: 590
+        x: 25
+        y: 773
+        width: 385
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8877c1b34fa1fa130800000000000000
-      internalID: 3580109865048897416
+      spriteID: 9062ac1a8db1c63f0800000000000000
+      internalID: -906318807767046647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frontJump_1
+      name: frontJumpSprite_1
       rect:
         serializedVersion: 2
-        x: 525
-        y: 813
-        width: 441
-        height: 583
+        x: 479
+        y: 812
+        width: 378
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91fa4595e6fef3b10800000000000000
-      internalID: 1963551219780988697
+      spriteID: 180b746291136bb30800000000000000
+      internalID: 4302680478085263489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frontJump_2
+      name: frontJumpSprite_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 874
-        width: 469
-        height: 520
+        x: 926
+        y: 864
+        width: 402
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e42d4ba5d1c5489a0800000000000000
-      internalID: -6231754703228317106
+      spriteID: 123708e02ceb51b20800000000000000
+      internalID: 3104597258818056993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frontJump_3
+      name: frontJumpSprite_3
       rect:
         serializedVersion: 2
-        x: 1543
-        y: 874
-        width: 450
-        height: 520
+        x: 1390
+        y: 864
+        width: 385
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bec2e6fd1e448940800000000000000
-      internalID: 5297444952297623223
+      spriteID: 33545236fe23399b0800000000000000
+      internalID: -5074656351374457549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frontJump_4
+      name: frontJumpSprite_4
       rect:
         serializedVersion: 2
-        x: 22
-        y: 117
-        width: 441
-        height: 583
+        x: 30
+        y: 188
+        width: 377
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cf9b303dcb207860800000000000000
-      internalID: 7525563137613602756
+      spriteID: 46973c27d741aefc0800000000000000
+      internalID: -3464934434279294620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frontJump_5
+      name: frontJumpSprite_5
       rect:
         serializedVersion: 2
-        x: 516
-        y: 48
-        width: 450
-        height: 590
+        x: 472
+        y: 129
+        width: 386
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe60e5633fc961c30800000000000000
-      internalID: 4329820660166428399
+      spriteID: a432fa86f2d7503e0800000000000000
+      internalID: -2088125209643113654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frontJump_6
+      name: frontJumpSprite_6
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 48
-        width: 450
-        height: 590
+        x: 920
+        y: 129
+        width: 385
+        height: 505
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,8 +264,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc8eaae736d9b6a0800000000000000
-      internalID: -6432875057073189695
+      spriteID: 755d3d29d08bf1810800000000000000
+      internalID: 1738310349625742679
       vertices: []
       indices: 
       edges: []

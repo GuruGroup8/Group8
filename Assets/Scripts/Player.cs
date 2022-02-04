@@ -98,7 +98,7 @@ public class Player : MonoBehaviour
         curShotDelay += Time.deltaTime;
     }
     
-    private void OnTriggerEneter2D(Collider2D collision)
+    void OnTriggerEneter2D(Collider2D collision)
         {
         if (collision.gameObject.tag == "Border"){
             switch (collision.gameObject.name){

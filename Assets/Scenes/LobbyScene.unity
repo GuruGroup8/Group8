@@ -208,7 +208,6 @@ GameObject:
   m_Component:
   - component: {fileID: 310279362}
   - component: {fileID: 310279361}
-  - component: {fileID: 310279360}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -216,14 +215,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &310279360
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310279359}
-  m_Enabled: 1
 --- !u!20 &310279361
 Camera:
   m_ObjectHideFlags: 0
@@ -507,7 +498,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -7732875113427348570, guid: 84157e29da9b4af46ac3b5f5d939df7e, type: 3}
+  m_Sprite: {fileID: 4025649925090476832, guid: d8b6de10a699c1e4b9b1cdd1981daafb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -726,7 +717,7 @@ GameObject:
   - component: {fileID: 1075546378}
   - component: {fileID: 1075546377}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

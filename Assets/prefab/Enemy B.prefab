@@ -100,7 +100,9 @@ MonoBehaviour:
   enemyName: 
   speed: 2
   health: 20
-  sprites: []
+  sprites:
+  - {fileID: 0}
+  - {fileID: 0}
   maxShotDelay: 0
   curShotDelay: 0
   bulletObjA: {fileID: 0}

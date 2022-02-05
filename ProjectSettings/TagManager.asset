@@ -10,6 +10,8 @@ TagManager:
   - PlayerBullet
   - Bed
   - Cabinet
+  - Spike
+  - Bgm
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - Button
   - Water
   - UI
-  - 
-  - 
+  - Bed
+  - Cabinet
   - 
   - 
   - 

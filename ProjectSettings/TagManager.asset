@@ -8,11 +8,13 @@ TagManager:
   - BorderBullet
   - Enemy
   - PlayerBullet
+  - Bed
+  - Cabinet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Button
   - Water
   - UI
   - 

@@ -9,27 +9,25 @@ public class TalkManager : MonoBehaviour
     public Image image;
     public GameObject talkPanel;
     public Text talk;
-    public GameObject YesButton;
-    public GameObject NoButton;
-    public string ShootingGameScene = "ShootingGame";
+    public GameObject SelectPanel;
+    public GameObject yesButton;
+    public GameObject noButton;
+    public string ShootingGame = "ShootingGame";
 
     public static bool isEndFadeOut = false;
 
     void Start()
     {
         talkPanel = GameObject.Find("talkPanel");
-        YesButton = GameObject.Find("Yes");
-        NoButton = GameObject.Find("No");
+        SelectPanel = GameObject.Find("selectPanel");
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Bed")
         {
-            
-            YesButton.SetActive(true);
-            NoButton.SetActive(true);
             talkPanel.SetActive(true);
+            SelectPanel.SetActive(true);
             talk.text = "잠에 드시겠습니까?";
  
         }
@@ -39,6 +37,7 @@ public class TalkManager : MonoBehaviour
     {
         isEndFadeOut = false;
         Debug.Log("시작 버튼 클릭");
+        SelectPanel.SetActive(false);
         StartCoroutine(FadeCoroutine());
 
         StartCoroutine(CheckFadeOutCoroutine());
@@ -66,11 +65,13 @@ public class TalkManager : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
         Debug.Log("게임 시작");
-        SceneManager.LoadScene(ShootingGameScene);
+        SceneManager.LoadScene(ShootingGame);
     }
 
     public void ClickNo()
     {
+        Debug.Log("뒤로 가기");
+        SelectPanel.SetActive(false);
         talkPanel.SetActive(false);
     }
 }

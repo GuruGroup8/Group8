@@ -10,18 +10,24 @@ public class talkEnter : MonoBehaviour
     public Text talk;
     int clickCount = 0;
     public int lastClick;
-    public GameObject YesButton;
-    public GameObject NoButton;
+    public GameObject SelectPanel;
     public GameObject text1;
     public GameObject text2;
     public GameObject image;
 
+
+    void Start()
+    {
+        SelectPanel.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
-       
-        if (Input.GetKeyDown(KeyCode.Space))
+        
+        if (Input.GetMouseButtonDown(0))
         {
+            
             if (clickCount == 0)
             {
                 talk.text = "엄마아빠가 선물해주신 드림 캐처가 아이를 지켜줄 \n거예요.";

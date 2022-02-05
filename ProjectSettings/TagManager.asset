@@ -11,7 +11,7 @@ TagManager:
   - Bed
   - Cabinet
   - Spike
-  - Bgm
+  - DreamCatcher
   layers:
   - Default
   - TransparentFX

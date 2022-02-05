@@ -133,10 +133,10 @@ TextureImporter:
       name: SideWalkLeftSprite_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1274
-        width: 291
-        height: 481
+        x: 59
+        y: 1486
+        width: 341
+        height: 563
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +154,10 @@ TextureImporter:
       name: SideWalkLeftSprite_1
       rect:
         serializedVersion: 2
-        x: 453
-        y: 1263
-        width: 291
-        height: 473
+        x: 528
+        y: 1472
+        width: 341
+        height: 554
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: SideWalkLeftSprite_2
       rect:
         serializedVersion: 2
-        x: 850
-        y: 1267
-        width: 291
-        height: 468
+        x: 991
+        y: 1478
+        width: 341
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: SideWalkLeftSprite_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 651
-        width: 291
-        height: 463
+        x: 58
+        y: 759
+        width: 341
+        height: 541
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: SideWalkLeftSprite_4
       rect:
         serializedVersion: 2
-        x: 423
-        y: 658
-        width: 308
-        height: 468
+        x: 492
+        y: 767
+        width: 362
+        height: 548
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: SideWalkLeftSprite_5
       rect:
         serializedVersion: 2
-        x: 839
-        y: 653
-        width: 291
-        height: 503
+        x: 978
+        y: 761
+        width: 341
+        height: 589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: SideWalkLeftSprite_6
       rect:
         serializedVersion: 2
-        x: 41
-        y: 49
-        width: 291
-        height: 468
+        x: 47
+        y: 57
+        width: 340
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: SideWalkLeftSprite_7
       rect:
         serializedVersion: 2
-        x: 439
-        y: 55
-        width: 291
-        height: 494
+        x: 511
+        y: 62
+        width: 341
+        height: 579
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: SideWalkLeftSprite_8
       rect:
         serializedVersion: 2
-        x: 839
-        y: 42
-        width: 291
-        height: 492
+        x: 978
+        y: 47
+        width: 341
+        height: 577
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

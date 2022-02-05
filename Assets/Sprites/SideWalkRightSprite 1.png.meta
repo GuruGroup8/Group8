@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9c304fcea90c0bc448334e816dbb4c28
+guid: 1948264912bc369438502d51b4862292
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: 6650222691505734004
     second: SideWalkRightSprite_8
+  - first:
+      213: 2182410257639957224
+    second: SideWalkRightSprite 1_0
+  - first:
+      213: 6516940489341427626
+    second: SideWalkRightSprite 1_1
+  - first:
+      213: 2024392170560641840
+    second: SideWalkRightSprite 1_2
+  - first:
+      213: -2631314452461079659
+    second: SideWalkRightSprite 1_3
+  - first:
+      213: -6454751843072000098
+    second: SideWalkRightSprite 1_4
+  - first:
+      213: 920280072681482062
+    second: SideWalkRightSprite 1_5
+  - first:
+      213: -980804853114264156
+    second: SideWalkRightSprite 1_6
+  - first:
+      213: -4614309239159727296
+    second: SideWalkRightSprite 1_7
+  - first:
+      213: 5476883174547840233
+    second: SideWalkRightSprite 1_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SideWalkRightSprite_0
+      name: SideWalkRightSprite 1_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 1267
-        width: 291
-        height: 468
+        x: 47
+        y: 1478
+        width: 340
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6845b36ecc0fc9df0800000000000000
-      internalID: -171997922920278906
+      spriteID: 8e26cc0019a794e10800000000000000
+      internalID: 2182410257639957224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_1
+      name: SideWalkRightSprite 1_1
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1263
-        width: 291
-        height: 473
+        x: 510
+        y: 1472
+        width: 341
+        height: 554
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e5f94cabec8ca40800000000000000
-      internalID: 5388784255706816102
+      spriteID: aaf5e89c8d2d07a50800000000000000
+      internalID: 6516940489341427626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_2
+      name: SideWalkRightSprite 1_2
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1274
-        width: 291
-        height: 481
+        x: 979
+        y: 1486
+        width: 341
+        height: 563
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70f4462903f7d5960800000000000000
-      internalID: 7592364393407729415
+      spriteID: 03b595414f5181c10800000000000000
+      internalID: 2024392170560641840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_3
+      name: SideWalkRightSprite 1_3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 653
-        width: 291
-        height: 503
+        x: 60
+        y: 761
+        width: 341
+        height: 589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df5dc923c9effe700800000000000000
-      internalID: 571955624516834813
+      spriteID: 593b4b06271bb7bd0800000000000000
+      internalID: -2631314452461079659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_4
+      name: SideWalkRightSprite 1_4
       rect:
         serializedVersion: 2
-        x: 451
-        y: 658
-        width: 308
-        height: 468
+        x: 526
+        y: 767
+        width: 361
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 828ca066ebdb6f8b0800000000000000
-      internalID: -5118695301006571480
+      spriteID: e9f3560c56d1c66a0800000000000000
+      internalID: -6454751843072000098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_5
+      name: SideWalkRightSprite 1_5
       rect:
         serializedVersion: 2
-        x: 841
-        y: 651
-        width: 291
-        height: 463
+        x: 981
+        y: 759
+        width: 340
+        height: 542
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 599d7c333187e32e0800000000000000
-      internalID: -2144144348713330283
+      spriteID: e47ec0aa9dd75cc00800000000000000
+      internalID: 920280072681482062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_6
+      name: SideWalkRightSprite 1_6
       rect:
         serializedVersion: 2
-        x: 52
-        y: 42
-        width: 291
-        height: 492
+        x: 59
+        y: 48
+        width: 342
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdb56ad2feade9960800000000000000
-      internalID: 7610761141100633052
+      spriteID: 4a52520ce2b7362f0800000000000000
+      internalID: -980804853114264156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_7
+      name: SideWalkRightSprite 1_7
       rect:
         serializedVersion: 2
-        x: 452
-        y: 55
-        width: 291
-        height: 494
+        x: 527
+        y: 63
+        width: 340
+        height: 578
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c49e1bbedca8ee520800000000000000
-      internalID: 2733274640887703884
+      spriteID: 04bd414d13ea6ffb0800000000000000
+      internalID: -4614309239159727296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SideWalkRightSprite_8
+      name: SideWalkRightSprite 1_8
       rect:
         serializedVersion: 2
-        x: 850
-        y: 49
-        width: 291
-        height: 468
+        x: 991
+        y: 57
+        width: 341
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,8 +339,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4710174bd465a4c50800000000000000
-      internalID: 6650222691505734004
+      spriteID: 9ecdc3fba3cc10c40800000000000000
+      internalID: 5476883174547840233
       vertices: []
       indices: 
       edges: []

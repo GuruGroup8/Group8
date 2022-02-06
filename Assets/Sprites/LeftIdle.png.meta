@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 99a6b74db0dbd2d49a4db4cfe0943b9b
+guid: 063c01d6dc3e76945898e741524f3c9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6807469475166864946
-    second: frontWalkSprite_0
-  - first:
-      213: 3785297464543305513
-    second: frontWalkSprite_1
-  - first:
-      213: -4101031306756398715
-    second: frontWalkSprite_2
-  - first:
-      213: 2599815925979126246
-    second: frontWalkSprite_3
+      213: 4762985474952349054
+    second: LeftIdle_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +35,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -115,85 +106,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frontWalkSprite_0
+      name: LeftIdle_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 686
-        width: 405
-        height: 569
+        x: 60
+        y: 39
+        width: 340
+        height: 562
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 236c2ae8b6df87e50800000000000000
-      internalID: 6807469475166864946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frontWalkSprite_1
-      rect:
-        serializedVersion: 2
-        x: 779
-        y: 685
-        width: 406
-        height: 570
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92f5a471df3188430800000000000000
-      internalID: 3785297464543305513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frontWalkSprite_2
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 36
-        width: 404
-        height: 580
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 581670431c53617c0800000000000000
-      internalID: -4101031306756398715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frontWalkSprite_3
-      rect:
-        serializedVersion: 2
-        x: 779
-        y: 54
-        width: 406
-        height: 560
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e9936d6fc6641420800000000000000
-      internalID: 2599815925979126246
+      spriteID: e7541e8dd06891240800000000000000
+      internalID: 4762985474952349054
       vertices: []
       indices: 
       edges: []

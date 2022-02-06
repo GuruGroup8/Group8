@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
+    private BoxCollider2D = boxCollider;
+    public LayerMask layerMask;
+
     public float speed;
     private Vector3 vector;
 
@@ -19,56 +22,79 @@ public class PlayerMove : MonoBehaviour
 
     private Animator animator;
 
-    
-
     // Start is called before the first frame update
     void Start()
     {
+        boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
     }
 
     IEnumerator MoveCoroutine()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+        while (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
         {
-            applyRunSpeed = runSpeed;
-            applyRunFlag = true;
-        }
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                applyRunSpeed = runSpeed;
+                applyRunFlag = true;
+            }
 
-        else
-        {
-            applyRunSpeed = 0;
-            applyRunFlag = false;
-        }
+            else
+            {
+                applyRunSpeed = 0;
+                applyRunFlag = false;
+            }
 
-        vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
+            vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
 
-        animator.SetFloat("DirX", vector.x);
-        animator.SetFloat("DirY", vector.y);
-        animator.SetBool("Walking", true);
-
-        while (currentWalkCount < walkCount)
-        {
             if (vector.x != 0)
+                vector.y = 0;
+
+            animator.SetFloat("DirX", vector.x);
+            animator.SetFloat("DirY", vector.y);
+
+            RayCastHit2D hit;
+
+            Vector2 start = transform.position;  //a지점(캐릭터 위치)
+            Vector2 end = start + new Vector2(vector.x * speed * walkCount, vector.y * speed * walkCount);    //b지점(캐릭터가 이동하고자 하는 위치값)
+
+            boxCollider.enabled = false;
+            hit = Physics2D.Linecast(start, end, layerMask);
+            boxCollider.enabled = true;
+
+            if(hit.transform != null)
             {
-                transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
+                break;
             }
 
-            else if (vector.y != 0)
-            {
-                transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
-            }
+            animator.SetBool("Walking", true);
 
-            if(applyRunFlag)
+            while (currentWalkCount < walkCount)
             {
+                if (vector.x != 0)
+                {
+                    transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
+                }
+
+                else if (vector.y != 0)
+                {
+                    transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
+                }
+
+                if (applyRunFlag)
+                {
+                    currentWalkCount++;
+                }
+
                 currentWalkCount++;
+                yield return new WaitForSeconds(0.01f);
             }
+            currentWalkCount = 0;
 
-            currentWalkCount++;
-            yield return new WaitForSeconds(0.01f);
+           
+
         }
-        currentWalkCount = 0;
-
+        
         animator.SetBool("Walking", false);
         canMove = true;
     }

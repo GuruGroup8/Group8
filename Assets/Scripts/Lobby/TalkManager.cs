@@ -33,6 +33,7 @@ public class TalkManager : MonoBehaviour
         }
     }
 
+
     public void ClickYes()
     {
         isEndFadeOut = false;

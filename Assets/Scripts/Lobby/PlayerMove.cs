@@ -20,6 +20,8 @@ public class PlayerMove : MonoBehaviour
 
     private Animator animator;
 
+    Vector3 moveLimit = new Vector3(50f, 50f);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -85,7 +87,9 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canMove)
+        transform.localPosition = ClampPosition(transform.localPosition);
+
+        if (canMove)
         {
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
@@ -93,7 +97,14 @@ public class PlayerMove : MonoBehaviour
                 StartCoroutine(MoveCoroutine());
             }
         }
-    }     
-    
-   
+    }
+
+    public Vector3 ClampPosition(Vector3 position)
+    {
+        return new Vector3
+        (
+            Mathf.Clamp(position.x, -6f, 25f), Mathf.Clamp(position.y, -40f, 4f), 0
+            );
+    }
+
 }

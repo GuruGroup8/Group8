@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int dmg;
+    public float speed = 5;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void Update()
     {
-        if (collision.gameObject.tag == "BorderBullet"){
-            Destroy(gameObject);
-        }
-    } 
+        Vector3 = dir = Vector3.up;
+        tranform.position += dir * speed * Time.deltaTime;
+    }
 }

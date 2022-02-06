@@ -1,26 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class ClickManager : MonoBehaviour
+public class PlayerFire : MonoBehaviour
 {
-    public Button Option;
-
-    private bool clickcount = false;
+    public GameObject bulletFactory;
+    public GameObject firePosition;
 
     // Start is called before the first frame update
     void Start()
     {
         
-    }
-
-    public void ClickIcon()
-    {
-        if (clickcount == false)
-        {
-            
-        }
     }
 
     // Update is called once per frame

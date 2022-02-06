@@ -14,6 +14,17 @@ public class StartScene : MonoBehaviour
     public static bool isEndFadeOut = false;
     public string lobbyScene = "LobbyScene";
 
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+
+    //√π æ¿ ∞Ì¡§
+    static void FirstLoad()
+    {
+        if(SceneManager.GetActiveScene().name.CompareTo("StartScene") != 0)
+        {
+            SceneManager.LoadScene("StartScene");
+        }
+    }
+
     public void ClickStart()
     {
         isEndFadeOut = false;

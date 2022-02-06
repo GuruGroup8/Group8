@@ -10,6 +10,7 @@ public class EnemyManager : MonoBehaviour
     public float createTime = 1;
     public GameObject enemyFactory;
 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,11 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.gm.gState != GameManager.GameState.Run)
+        {
+            return;
+        }
+
         currentTime += Time.deltaTime;
 
         if (currentTime > createTime)

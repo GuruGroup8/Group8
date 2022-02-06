@@ -26,7 +26,6 @@ public class SettingManager : MonoBehaviour
     public void ClickBack()
     {
         settingPanel.SetActive(false);
-
     }
 
     

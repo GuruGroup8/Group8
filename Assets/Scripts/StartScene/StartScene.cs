@@ -13,7 +13,6 @@ public class StartScene : MonoBehaviour
 
     public static bool isEndFadeOut = false;
     public string lobbyScene = "LobbyScene";
-    public string loadScene = "LoadingScene";
 
     public void ClickStart()
     {
@@ -53,14 +52,14 @@ public class StartScene : MonoBehaviour
         SceneManager.LoadScene(lobbyScene);
     }
 
-    public void ClickLoad()
-    {
-        Debug.Log("게임 로딩");
-        SceneManager.LoadScene(loadScene);
-    }
-
     public void ClickExit()
     {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+
         Debug.Log("게임 종료");
         Application.Quit();
     }

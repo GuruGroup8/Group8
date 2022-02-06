@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
- 
+
     public float speed;
     private Vector3 vector;
 
@@ -93,5 +93,7 @@ public class PlayerMove : MonoBehaviour
                 StartCoroutine(MoveCoroutine());
             }
         }
-    }      
+    }     
+    
+   
 }

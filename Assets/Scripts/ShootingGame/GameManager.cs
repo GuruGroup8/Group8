@@ -86,6 +86,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void OffGame()
+    {
+        Debug.Log("게임 종료");
+        Application.Quit();
+
+    }
     public void QuitGame()
     {
         StartCoroutine(FadeCoroutine());
@@ -104,7 +110,6 @@ public class GameManager : MonoBehaviour
         Debug.Log("재 시작");
         SceneManager.LoadScene(StartScene);
     }
-
 
     IEnumerator FadeCoroutine()
     {
@@ -133,7 +138,6 @@ public class GameManager : MonoBehaviour
         if(sm.GetScore() >= 30)
         {
             gState = GameState.GameOver;
-            Time.timeScale = 0f;
             gameClear.SetActive(true);
         }
     }

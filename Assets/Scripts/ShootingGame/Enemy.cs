@@ -35,8 +35,11 @@ public class Enemy : MonoBehaviour
         GameObject smObject = GameObject.Find("ScoreManager");
         ScoreManager sm = smObject.GetComponent<ScoreManager>();
         
-        sm.SetScore(sm.GetScore() + 1);
-
+        if (other.gameObject.tag == "PlayerBullet")
+        {
+            sm.SetScore(sm.GetScore() + 1);
+        }
+   
         if (other.gameObject.tag == "Player")
         {
             player = GameObject.Find("shootingplayer").GetComponent<Player>();
